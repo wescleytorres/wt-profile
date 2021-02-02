@@ -5,7 +5,7 @@ export default createGlobalStyle`
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', serif;
+  font-family: 'Press Start 2P', cursive;
 }
 
 body {
@@ -43,13 +43,13 @@ body {
 
 
 h1, h2, h3, h4, h5, h6, strong {
-  font-weight: 500;
   color: #000;
 }
 
 p {
-  font-weight: 400;
-  color: #000;
+  color: #fdf5d8;
+  font-size: 12px;
+  line-height: 18px;
 }
 
 `;

@@ -2,14 +2,15 @@ import React from 'react';
 
 import { Container, Header, Imagem } from './styles';
 
-import figma from '../../../assets/svg/figma.svg';
-import vscode from '../../../assets/svg/vscode.svg';
-import git from '../../../assets/svg/git.svg';
+import figma from '../../../assets/svg/tool/figma.svg';
+import vscode from '../../../assets/svg/tool/vscode.svg';
+import git from '../../../assets/svg/tool/git.svg';
+import tools from '../../../assets/svg/fonts/tools.svg';
 
 const Tool: React.FC = () => (
   <Container>
     <Header>
-      <h1>Tools</h1>
+      <img src={tools} alt="Tools" />
     </Header>
 
     <Imagem>

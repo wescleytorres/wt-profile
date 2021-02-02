@@ -11,17 +11,17 @@ export const ContainerCard = styled.div`
 `;
 
 export const HeaderCard = styled.div`
-  width: 100%;
   height: 40px;
 
   background: #fdf5d8;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 
-  h1 {
-    text-align: center;
-    font-size: 25px;
-    padding-top: 5px;
+  display: flex;
+  place-content: center;
+
+  img {
+    width: 120px;
   }
 `;
 

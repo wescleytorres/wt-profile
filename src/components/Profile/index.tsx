@@ -2,16 +2,17 @@ import React from 'react';
 
 import { Container } from './styles';
 
+import Perfil from '../../assets/img/perfil.jpeg';
+
+import WescleyTorres from '../../assets/svg/fonts/wt.svg';
+
 const Profile: React.FC = () => (
   <Container>
     <div>
-      <img
-        src="https://avatars.githubusercontent.com/u/66565807?s=460&u=e9e8415c46ff8d35913d535b5a751164281a1aae&v=4"
-        alt="Profile"
-      />
+      <img src={Perfil} alt="Profile" />
     </div>
 
-    <h1>Wescley Torres</h1>
+    <img src={WescleyTorres} alt="WescleyTorres" />
   </Container>
 );
 

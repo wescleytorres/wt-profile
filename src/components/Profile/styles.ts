@@ -11,6 +11,11 @@ export const Container = styled.div`
   border: 2px solid #fdf5d8;
   box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.3);
 
+  > img {
+    width: 100%;
+    margin-top: 25px;
+  }
+
   div {
     background: #222;
     border-top-left-radius: 15px;
@@ -29,13 +34,5 @@ export const Container = styled.div`
       border: 2px solid #00e676;
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
-  }
-
-  h1 {
-    flex: 1;
-    font-size: 25px;
-    text-align: center;
-    margin-top: 30px;
-    font-weight: 700;
   }
 `;

@@ -4,8 +4,13 @@ export const Container = styled.div`
   grid-column: 2/5;
   grid-row: 1/2;
 
-  > h1 {
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  > img {
+    width: 300px;
+    margin-top: 10px;
   }
 `;
 
@@ -19,20 +24,17 @@ export const Content = styled.div`
   flex-direction: column;
   justify-content: space-between;
 
-  h1 {
-    margin-left: 20px;
+  img {
+    width: 250px;
+    margin: 5px 0 0 5px;
   }
 
   section {
     background: #222;
     height: 150px;
-    padding: 20px;
+    padding: 5px;
 
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-
-    p {
-      color: #fdf5d8;
-    }
   }
 `;

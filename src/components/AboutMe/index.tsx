@@ -2,10 +2,13 @@ import React from 'react';
 
 import { Container, Content } from './styles';
 
+import HardSkill from '../../assets/svg/fonts/hardskill.svg';
+import aboutme from '../../assets/svg/fonts/aboutme.svg';
+
 const AboutMe: React.FC = () => (
   <Container>
     <Content>
-      <h1>AboutMe</h1>
+      <img src={aboutme} alt="AboutMe" />
       <section>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
@@ -17,7 +20,7 @@ const AboutMe: React.FC = () => (
         </p>
       </section>
     </Content>
-    <h1>Hard Skill</h1>
+    <img src={HardSkill} alt="HardSkill" />
   </Container>
 );
 

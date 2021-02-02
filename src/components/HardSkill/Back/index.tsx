@@ -2,16 +2,18 @@ import React from 'react';
 
 import { Container, Header, Imagem } from './styles';
 
-import python from '../../../assets/svg/python.svg';
-import node from '../../../assets/svg/node.svg';
-import mongodb from '../../../assets/svg/mongodb.svg';
-import postgresql from '../../../assets/svg/postgresql.svg';
-import mysql from '../../../assets/svg/mysql.svg';
+import python from '../../../assets/svg/back/python.svg';
+import node from '../../../assets/svg/back/node.svg';
+import mongodb from '../../../assets/svg/back/mongodb.svg';
+import postgresql from '../../../assets/svg/back/postgresql.svg';
+import mysql from '../../../assets/svg/back/mysql.svg';
+
+import back from '../../../assets/svg/fonts/back.svg';
 
 const Back: React.FC = () => (
   <Container>
     <Header>
-      <h1>Back</h1>
+      <img src={back} alt="Back" />
     </Header>
 
     <Imagem>
