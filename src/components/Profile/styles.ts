@@ -16,7 +16,7 @@ export const Container = styled.div`
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 
-    height: 250px;
+    height: 245px;
 
     display: flex;
     justify-content: center;
@@ -35,7 +35,7 @@ export const Container = styled.div`
     flex: 1;
     font-size: 25px;
     text-align: center;
-    margin: 30px;
+    margin-top: 30px;
     font-weight: 700;
   }
 `;

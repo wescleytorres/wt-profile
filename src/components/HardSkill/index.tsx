@@ -1,7 +1,15 @@
 import React from 'react';
 
-import {} from './styles';
+import Tool from './Tool';
+import Front from './Front';
+import Back from './Back';
 
-const Profile: React.FC = () => <h1>Ola</h1>;
+const HardSkill: React.FC = () => (
+  <>
+    <Tool />
+    <Front />
+    <Back />
+  </>
+);
 
-export default Profile;
+export default HardSkill;

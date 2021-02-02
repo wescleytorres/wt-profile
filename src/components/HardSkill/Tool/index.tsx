@@ -1,7 +1,23 @@
 import React from 'react';
 
-import {} from './styles';
+import { Container, Header, Imagem } from './styles';
 
-const Profile: React.FC = () => <h1>Ola</h1>;
+import figma from '../../../assets/svg/figma.svg';
+import vscode from '../../../assets/svg/vscode.svg';
+import git from '../../../assets/svg/git.svg';
 
-export default Profile;
+const Tool: React.FC = () => (
+  <Container>
+    <Header>
+      <h1>Tools</h1>
+    </Header>
+
+    <Imagem>
+      <img src={figma} alt="figmaIcon" />
+      <img src={vscode} alt="vscodeIcon" />
+      <img src={git} alt="gitIcon" />
+    </Imagem>
+  </Container>
+);
+
+export default Tool;
