@@ -19,4 +19,14 @@ export const Container = styled.div`
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 2fr 1fr 1fr;
   gap: 15px;
+
+  @media (max-width: 900px) {
+    max-width: 90vw;
+
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
 `;

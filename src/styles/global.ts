@@ -38,12 +38,7 @@ body {
     background: linear-gradient(#00e676, #25352d);
     clip-path: circle(20% at right 10%);
   }
-}
 
-
-
-h1, h2, h3, h4, h5, h6, strong {
-  color: #000;
 }
 
 p {

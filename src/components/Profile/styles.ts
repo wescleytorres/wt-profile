@@ -35,4 +35,20 @@ export const Container = styled.div`
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
   }
+
+  @media (max-width: 900px) {
+    > img {
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    div {
+      height: 220px;
+
+      img {
+        width: 150px;
+        height: 150px;
+      }
+    }
+  }
 `;
