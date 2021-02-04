@@ -4,7 +4,7 @@ import { Container, Header, Imagem } from './styles';
 
 import pressstart from '../../assets/svg/fonts/pressstart.svg';
 
-import curriculo from '../../assets/doc/teste.pdf';
+import curriculo from '../../assets/doc/wescleytorres.pdf';
 
 const SocialMedias: React.FC = () => {
   return (
@@ -50,7 +50,7 @@ const SocialMedias: React.FC = () => {
           </svg>
         </a>
 
-        <a href={curriculo} download="teste.pdf">
+        <a href={curriculo} download="WescleyTorres">
           <svg
             width="30"
             height="30"
